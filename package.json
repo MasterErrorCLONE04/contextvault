@@ -11,21 +11,34 @@
     "sqlite",
     "semantic-search"
   ],
-  "author": "Davelt0-devalt2000@gmail.com",
+  "author": "Davelt0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MasterErrorCLONE04/contextvault"
+  },
+  "bugs": {
+    "url": "https://github.com/MasterErrorCLONE04/contextvault/issues"
+  },
+  "homepage": "https://github.com/MasterErrorCLONE04/contextvault#readme",
+  "type": "module",
+  "main": "./dist/src/server.js",
+  "types": "./dist/src/types/index.d.ts",
+  "bin": {
+    "contextvault": "./dist/src/cli.js"
+  },
   "files": [
     "dist",
     "package.json",
     "README.md"
   ],
-  "type": "module",
-  "bin": {
-    "contextvault": "./dist/src/cli.js"
+  "engines": {
+    "node": ">=18"
   },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/src/server.js",
     "dev": "tsc --watch",
+    "start": "node dist/src/server.js",
     "init": "node dist/scripts/init-db.js",
     "init:seed": "node dist/scripts/init-db.js --seed",
     "test:semantic": "node dist/scripts/test-semantic.js",
