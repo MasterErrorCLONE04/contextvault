@@ -1,0 +1,19 @@
+
+> contextvault@1.0.0 test:semantic
+> node dist/scripts/test-semantic.js
+
+­ƒº¬ Test de B├║squeda Sem├íntica
+
+1. Guardando memoria sobre arquitectura hexagonal...
+2. Buscando sem├ínticamente: "c├│mo organizo las capas del sistema?"
+[DEBUG] Keywords found: 0
+[DEBUG] Using fallback. Candidates: 1
+[DEBUG] Sim 'hexagonal-pattern': 0.3055
+   Encontrados: 1 resultados
+   1. [architecture] hexagonal-pattern: Usamos arquitectura hexagonal con puertos y adapta...
+
+Ô£à TEST PASADO: Encontr├│ "hexagonal" buscando "capas" (similitud sem├íntica)
+
+3. Buscando por keywords (modo antiguo): "capas"
+   Encontrados: 0 resultados
+Ô£à La b├║squeda sem├íntica encontr├│ lo que keywords no pudo

@@ -1,0 +1,42 @@
+
+> contextvault@1.0.0 test:autodetect
+> node dist/scripts/test-autodetect.js
+
+­ƒº¬ Test de Auto-Detecci├│n
+
+
+­ƒôî Test: Arquitectura Hexagonal
+Texto: "Let's use Hexagonal Architecture for this project. It will h..."
+Ô£à PASSED: Detect├│ categor├¡a 'architecture'
+   Key: hexagonal-architecture
+   Confianza: 100%
+
+­ƒôî Test: Decisi├│n de estilo
+Texto: "We decided to use tabs instead of spaces for indentation. It..."
+Ô£à PASSED: Detect├│ categor├¡a 'style'
+   Key: indentation-tabs
+   Confianza: 95%
+
+­ƒôî Test: Dependencia
+Texto: "I think we should install Zod for schema validation. It's li..."
+ÔØî FAILED: No detect├│ categor├¡a 'dependency'
+   Detectado: nada
+
+­ƒôî Test: Patr├│n de dise├▒o
+Texto: "Going with the Repository Pattern for data access. We don't ..."
+Ô£à PASSED: Detect├│ categor├¡a 'architecture'
+   Key: arch-pattern
+   Confianza: 100%
+
+­ƒôî Test: Convenci├│n Naming
+Texto: "Let's agree on naming conventions: PascalCase for components..."
+Ô£à PASSED: Detect├│ categor├¡a 'style'
+   Key: naming-camelcase
+   Confianza: 100%
+
+­ƒôî Test: Sin decisi├│n importante
+Texto: "Can you explain what this function does? I'm not sure I unde..."
+Ô£à PASSED: Correctamente no detect├│ nada
+
+
+­ƒôè Resultados: 5 passed, 1 failed

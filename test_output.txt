@@ -1,0 +1,14 @@
+
+> contextvault@1.0.0 test:semantic
+> node dist/scripts/test-semantic.js
+
+­ƒº¬ Test de B├║squeda Sem├íntica
+
+1. Guardando memoria sobre arquitectura hexagonal...
+2. Buscando sem├ínticamente: "c├│mo organizo las capas del sistema?"
+   Encontrados: 0 resultados
+
+ÔÜá´©Å  TEST: No encontr├│ coincidencia (puede ser normal si el modelo no relaciona esas palabras)
+
+3. Buscando por keywords (modo antiguo): "capas"
+   Encontrados: 0 resultados
